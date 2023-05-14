@@ -1,0 +1,108 @@
+.scrol{
+    padding-top: 2.5rem ;
+    padding-bottom: 4.5rem ;
+}
+
+.scrol h1, h2, h6{
+    font-family: 'Bruno Ace', cursive;
+    padding: 5px;
+}
+
+.scrol p{
+    padding: 10px;
+}
+
+hr{
+    color: #222222;
+    opacity: 1;
+    width: 60%;
+    padding: 1rem ;
+}
+
+.footer{
+    border-top: 3px solid #222222;
+}
+
+.pie-pagina{
+    width: 100%;
+    background-color: #ededed;
+}
+
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie-pagina .grupo-1 .box figure img{
+    width: 200px;
+    transition: all 0.5s ease;
+} 
+
+.pie-pagina .grupo-1 .box figure img:hover{
+    transform: scale(1.1);
+}
+
+.pie-pagina .grupo-1 .box h2{
+    color: #000;
+    margin-bottom: 25px;
+    font-size: 20px;
+    font-family: 'Bruno Ace', cursive;
+}
+
+.pie-pagina .grupo-1 .box p{
+    color: #000;
+    margin-bottom: 10px;
+}
+
+
+.pie-pagina .grupo-1 .red-social a{
+    text-decoration: none;
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #aeaeae;
+    margin-right: 10px;
+    background-color: #222222;
+    text-align: center;
+    transition: all 300ms ease;
+    border-radius: 60px;
+}
+
+.pie-pagina .grupo-1 .red-social a:hover{
+    color: #ffffff;
+    transform: scale(1.1);
+}
+
+.pie-pagina .grupo-2{
+    background-color: #222222;
+    padding: 15px 10px;
+    text-align: center;
+    color: #eeeeee;
+}
+
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+}
+
+@media screen and (max-width:1024px) {
+    .pie-pagina .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+    }
+}
